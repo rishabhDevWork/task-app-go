@@ -1,0 +1,21 @@
+# The root directory of the project
+root = "."
+
+# The temporary directory where air will store its temporary files
+tmp_dir = "tmp"
+
+[build]
+# The name of the binary file to be generated after building the project
+bin = "main"
+
+# The command to build the project
+cmd = "go build -o ./tmp/main ."
+
+# Directories to exclude from watching
+exclude_dir = ["tmp", "client"]
+
+# Files to include for watching
+include_ext = ["go"]
+
+# Files to ignore for triggering a build
+ignore = ["tmp/*"]
