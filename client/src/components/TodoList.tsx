@@ -31,7 +31,7 @@ const TodoList = () => {
 		<>
 			<Text fontSize={"4xl"} textTransform={"uppercase"} fontWeight={"bold"} textAlign={"center"} my={2} bgGradient='linear(to-l, #0b85f8, #00ffff)'
 				bgClip='text'>
-				Today's Tasks
+				Rishabh's Tasks
 			</Text>
 			{isLoading && (
 				<Flex justifyContent={"center"} my={4}>
