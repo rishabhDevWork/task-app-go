@@ -96,7 +96,7 @@ The frontend will run on **http://localhost:5173**
 
 ## 📸 Screenshots
 ### Task Dashboard
-![Task Dashboard](./screenshots/Screenshot 2025-09-02 at 5.55.10 PM.png)
+![Task Dashboard](./screenshots/dashboard.png)
 
 ---
 
